@@ -1,0 +1,359 @@
+table voos_confins
+	lineageTag: 2e6fc66b-6bcf-4035-84e1-cd51ca465112
+
+	measure 'Total Voos' = COUNTROWS(voos_confins)
+		formatString: 0
+		lineageTag: 5bd2da7f-6820-475c-91a4-14a4b05176a4
+
+	measure 'Voos Medidos' = CALCULATE([Total Voos], voos_confins[Cancelado] = FALSE(), voos_confins[Sem_Horario_Previsto] = FALSE())
+		formatString: 0
+		lineageTag: 06dbc3bb-29f7-4ae2-b925-8a0daeedd146
+
+	measure '% Pontualidade' = DIVIDE(CALCULATE([Total Voos], voos_confins[Pontual] = TRUE()), [Voos Medidos])
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 6c2501a0-b24f-46b8-a3fe-cf4957b4ce98
+
+	measure '% Cancelamento' = DIVIDE(CALCULATE([Total Voos], voos_confins[Cancelado] = TRUE()), [Total Voos])
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: d38bc159-da25-4fb9-acef-f0dac64aef46
+
+	measure 'Voos Cancelados' = CALCULATE ( [Total Voos], voos_confins[Cancelado] = TRUE () )
+		formatString: 0
+		lineageTag: 20f3c0e0-7130-478b-bd6d-5b3e8b3f3f27
+
+	measure 'Voos Pontuais' = CALCULATE ( [Total Voos], voos_confins[Pontual] = TRUE () )
+		formatString: 0
+		lineageTag: ff56f1fa-b798-4a45-9729-9505929775ae
+
+	measure 'Voos Pontuais 15min' = CALCULATE ( [Total Voos], voos_confins[Pontual_15min] = TRUE () )
+		formatString: 0
+		lineageTag: c6579ac9-d87c-4d12-abc4-76a929555a1b
+
+	measure '% Pontualidade 15min' = DIVIDE ( [Voos Pontuais 15min], [Voos Medidos] )
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 1016aecb-c834-4d68-9269-14f6c74400eb
+
+	measure 'Atraso Medio (min)' = CALCULATE ( AVERAGE ( voos_confins[Atraso_Min] ), voos_confins[Cancelado] = FALSE (), voos_confins[Sem_Horario_Previsto] = FALSE () )
+		formatString: 0.0
+		lineageTag: cfa885ba-ada4-47c8-94dc-fba0050f588a
+
+	measure 'Total Voos (cartao)' = FORMAT ( [Total Voos], "#,0", "pt-BR" )
+		lineageTag: c22fb48a-93bc-4e7b-91d8-365fda886152
+
+	measure 'Voos Medidos (cartao)' = FORMAT ( [Voos Medidos], "#,0", "pt-BR" )
+		lineageTag: 76e54032-9873-46e3-b4ae-01389d96d0a5
+
+	measure 'Voos Cancelados (cartao)' = FORMAT ( [Voos Cancelados], "#,0", "pt-BR" )
+		lineageTag: 6ca4847a-028a-4d64-972f-9c82a0db9186
+
+	measure 'Voos Pontuais (cartao)' = FORMAT ( [Voos Pontuais], "#,0", "pt-BR" )
+		lineageTag: ea7bc8dc-f688-455e-873b-130e3b3b34c7
+
+	column Arquivo_Origem
+		dataType: string
+		lineageTag: fe9d1a89-4fe6-42a4-bed7-15bca6043e6a
+		summarizeBy: none
+		sourceColumn: Arquivo_Origem
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cia_ICAO
+		dataType: string
+		lineageTag: d6532970-f30e-43da-ae72-7cf75d147b6b
+		summarizeBy: none
+		sourceColumn: Cia_ICAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column Companhia
+		dataType: string
+		lineageTag: c08d75da-8a2c-4123-975e-0a7c43ad636c
+		summarizeBy: none
+		sourceColumn: Companhia
+
+		annotation SummarizationSetBy = Automatic
+
+	column Empresa_Aerea
+		dataType: string
+		lineageTag: 4da7eaaa-2f50-48fd-89ef-a315fa0944bc
+		summarizeBy: none
+		sourceColumn: Empresa_Aerea
+
+		annotation SummarizationSetBy = Automatic
+
+	column Numero_Voo
+		dataType: int64
+		formatString: 0
+		lineageTag: 684e7802-dbd6-4f7a-95cb-116fffef9664
+		summarizeBy: sum
+		sourceColumn: Numero_Voo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tipo_Voo
+		dataType: string
+		lineageTag: 888b97c2-3132-4026-b8b9-7c5fceb2ca5c
+		summarizeBy: none
+		sourceColumn: Tipo_Voo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Modelo_Aeronave
+		dataType: string
+		lineageTag: 4d95df84-bad2-4076-809f-ad4a8a089321
+		summarizeBy: none
+		sourceColumn: Modelo_Aeronave
+
+		annotation SummarizationSetBy = Automatic
+
+	column Assentos
+		dataType: int64
+		formatString: 0
+		lineageTag: 75b2324b-7526-414c-8b6f-b300bbb0d817
+		summarizeBy: sum
+		sourceColumn: Assentos
+
+		annotation SummarizationSetBy = Automatic
+
+	column Movimento
+		dataType: string
+		lineageTag: 4fe2220c-424d-4d8f-a5c9-614771cb34c2
+		summarizeBy: none
+		sourceColumn: Movimento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Outro_Aeroporto_ICAO
+		dataType: string
+		lineageTag: 07e346ba-1994-4ec5-84f3-953884d9045e
+		summarizeBy: none
+		sourceColumn: Outro_Aeroporto_ICAO
+
+		annotation SummarizationSetBy = Automatic
+
+	column Outro_Aeroporto
+		dataType: string
+		lineageTag: c2e5e2a1-6ace-4132-bf29-1f702c0194da
+		summarizeBy: none
+		sourceColumn: Outro_Aeroporto
+
+		annotation SummarizationSetBy = Automatic
+
+	column Horario_Previsto
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: fb43b59e-3ff2-4f32-84b2-9c8313326d9e
+		summarizeBy: none
+		sourceColumn: Horario_Previsto
+
+		variation Variation
+			isDefault
+			relationship: d5944b29-99de-405e-99a3-64bfababbe27
+			defaultHierarchy: LocalDateTable_046b1f7b-956c-4b74-b4d7-da23476dfb7f.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Horario_Real
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 5d800218-c92a-4676-91d4-602b108319ac
+		summarizeBy: none
+		sourceColumn: Horario_Real
+
+		variation Variation
+			isDefault
+			relationship: 48c578c8-4c0e-4fd6-b411-14e841af986a
+			defaultHierarchy: LocalDateTable_1647c6b5-5f8d-4d82-aa33-4b72466f3c69.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Data
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: c71f3228-8596-43e8-a781-4b4d50a7c051
+		summarizeBy: none
+		sourceColumn: Data
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ano
+		dataType: int64
+		formatString: 0
+		lineageTag: 5e6860ae-0f2d-46ab-851b-d5d8cd9e6d46
+		summarizeBy: sum
+		sourceColumn: Ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mes
+		dataType: int64
+		formatString: 0
+		lineageTag: f49b83e1-b4e4-4566-bcde-65e6ad9c646b
+		summarizeBy: sum
+		sourceColumn: Mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoMes
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 978ca6e8-7e50-4866-88d8-6725ef69444f
+		summarizeBy: none
+		sourceColumn: AnoMes
+
+		variation Variation
+			isDefault
+			relationship: 152f5779-d276-443a-ad24-3c3c75616c42
+			defaultHierarchy: LocalDateTable_c68d37a3-464d-485a-8081-e74d38710ef7.'Hierarquia de datas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Dia_Semana_Num
+		dataType: int64
+		formatString: 0
+		lineageTag: 69533c75-e1a6-410d-9445-10a9d385e646
+		summarizeBy: sum
+		sourceColumn: Dia_Semana_Num
+
+		annotation SummarizationSetBy = Automatic
+
+	column Dia_Semana
+		dataType: string
+		lineageTag: 4e9f0510-1cc3-4663-9eed-61cab4d536f1
+		summarizeBy: none
+		sourceColumn: Dia_Semana
+		sortByColumn: Dia_Semana_Num
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Hora_Prevista
+		dataType: int64
+		formatString: 0
+		lineageTag: 4ea71aa2-1aea-46a7-8ec3-d4b97922d3ab
+		summarizeBy: sum
+		sourceColumn: Hora_Prevista
+
+		annotation SummarizationSetBy = Automatic
+
+	column Faixa_Horario
+		dataType: string
+		lineageTag: 91cc40dc-596e-4cb7-b8e3-3ea8f7d1b804
+		summarizeBy: none
+		sourceColumn: Faixa_Horario
+		sortByColumn: 'Faixa Ordem'
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Situacao_Voo
+		dataType: string
+		lineageTag: 6bc83541-47b7-46e2-94f7-5404b52b14dc
+		summarizeBy: none
+		sourceColumn: Situacao_Voo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cancelado
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: ff158c87-bc0e-4e8b-8a09-256893da4c00
+		summarizeBy: none
+		sourceColumn: Cancelado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sem_Horario_Previsto
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 05e2dd2c-f237-4061-b17e-37980b670848
+		summarizeBy: none
+		sourceColumn: Sem_Horario_Previsto
+
+		annotation SummarizationSetBy = Automatic
+
+	column Atraso_Min
+		dataType: int64
+		formatString: 0
+		lineageTag: 39eeaaf3-247a-4822-ad3e-ee76d1b2c7a9
+		summarizeBy: sum
+		sourceColumn: Atraso_Min
+
+		annotation SummarizationSetBy = Automatic
+
+	column Faixa_Atraso
+		dataType: string
+		lineageTag: a67f36c0-36a0-4cba-8efe-44dc5257b27d
+		summarizeBy: none
+		sourceColumn: Faixa_Atraso
+
+		annotation SummarizationSetBy = Automatic
+
+	column Pontual
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 1fcab50a-6d10-4358-83de-e83c9d18c04d
+		summarizeBy: none
+		sourceColumn: Pontual
+
+		annotation SummarizationSetBy = Automatic
+
+	column Atrasado
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 938958aa-f496-423e-9198-f8993ae51a1c
+		summarizeBy: none
+		sourceColumn: Atrasado
+
+		annotation SummarizationSetBy = Automatic
+
+	column Pontual_15min
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 1b361ceb-683c-49a9-b4b5-47b2abab7b26
+		summarizeBy: none
+		sourceColumn: Pontual_15min
+
+		annotation SummarizationSetBy = Automatic
+
+	column Situacao_ANAC
+		dataType: string
+		lineageTag: b171c385-1abe-4ab9-b3d5-b9ca8dd22d11
+		summarizeBy: none
+		sourceColumn: Situacao_ANAC
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Faixa Ordem' =
+			
+			SWITCH (
+			    TRUE (),
+			    voos_confins[Hora_Prevista] < 6, 1,
+			    voos_confins[Hora_Prevista] < 12, 2,
+			    voos_confins[Hora_Prevista] < 18, 3,
+			    4
+			)
+		formatString: 0
+		lineageTag: 55314675-4ff0-45eb-912c-3294397ed60d
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition voos_confins = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents("D:\Meu projeto\dados_tratados\voos_confins.csv"),[Delimiter=";", Columns=30, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Cabeçalhos Promovidos" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),
+				    #"Tipo Alterado" = Table.TransformColumnTypes(#"Cabeçalhos Promovidos",{{"Arquivo_Origem", type text}, {"Cia_ICAO", type text}, {"Companhia", type text}, {"Empresa_Aerea", type text}, {"Numero_Voo", Int64.Type}, {"Tipo_Voo", type text}, {"Modelo_Aeronave", type text}, {"Assentos", Int64.Type}, {"Movimento", type text}, {"Outro_Aeroporto_ICAO", type text}, {"Outro_Aeroporto", type text}, {"Horario_Previsto", type datetime}, {"Horario_Real", type datetime}, {"Data", type datetime}, {"Ano", Int64.Type}, {"Mes", Int64.Type}, {"AnoMes", type date}, {"Dia_Semana_Num", Int64.Type}, {"Dia_Semana", type text}, {"Hora_Prevista", Int64.Type}, {"Faixa_Horario", type text}, {"Situacao_Voo", type text}, {"Cancelado", type logical}, {"Sem_Horario_Previsto", type logical}, {"Atraso_Min", Int64.Type}, {"Faixa_Atraso", type text}, {"Pontual", type logical}, {"Atrasado", type logical}, {"Pontual_15min", type logical}, {"Situacao_ANAC", type text}})
+				in
+				    #"Tipo Alterado"
+
+	annotation PBI_NavigationStepName = Navegação
+
+	annotation PBI_ResultType = Table
+

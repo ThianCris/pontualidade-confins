@@ -1,0 +1,19 @@
+relationship d5944b29-99de-405e-99a3-64bfababbe27
+	joinOnDateBehavior: datePartOnly
+	fromColumn: voos_confins.Horario_Previsto
+	toColumn: LocalDateTable_046b1f7b-956c-4b74-b4d7-da23476dfb7f.Date
+
+relationship 48c578c8-4c0e-4fd6-b411-14e841af986a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: voos_confins.Horario_Real
+	toColumn: LocalDateTable_1647c6b5-5f8d-4d82-aa33-4b72466f3c69.Date
+
+relationship 152f5779-d276-443a-ad24-3c3c75616c42
+	joinOnDateBehavior: datePartOnly
+	fromColumn: voos_confins.AnoMes
+	toColumn: LocalDateTable_c68d37a3-464d-485a-8081-e74d38710ef7.Date
+
+relationship 5143daeb-ee05-b6b5-c9b8-40d9feac1eba
+	fromColumn: voos_confins.Data
+	toColumn: Calendario.Date
+

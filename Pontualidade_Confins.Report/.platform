@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Pontualidade_Confins"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9d874044-aa54-454b-ab22-5cfa676fe4de"
+  }
+}

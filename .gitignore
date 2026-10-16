@@ -1,0 +1,19 @@
+# Dados brutos da ANAC — baixar do portal, ver README
+dados_brutos/*.csv
+
+# Power BI: cache e preferências locais
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+*.pbix.tmp
+~$*
+
+# Arquivos de trabalho, fora do projeto publicado
+Confins_Tema.json
+Medidas_DAX.txt
+Roteiro_Layout.md
+Screenshot_*.png
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store

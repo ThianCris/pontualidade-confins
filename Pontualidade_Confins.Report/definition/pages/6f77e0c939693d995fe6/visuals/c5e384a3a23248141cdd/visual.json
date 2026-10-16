@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "c5e384a3a23248141cdd",
+  "position": {
+    "x": 690,
+    "y": 67.5,
+    "z": 5002,
+    "height": 177.12,
+    "width": 198.72,
+    "tabOrder": 5002
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "voos_confins"
+                    }
+                  },
+                  "Property": "Total Voos (cartao)"
+                }
+              },
+              "queryRef": "voos_confins.Total Voos (cartao)",
+              "nativeQueryRef": "Total Voos (cartao)"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

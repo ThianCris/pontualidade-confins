@@ -1,0 +1,65 @@
+table Calendario
+	lineageTag: 367ca00f-d494-4e34-8bb6-1cd8921e2752
+	dataCategory: Time
+
+	column Date
+		isKey
+		formatString: General Date
+		lineageTag: 89c580ab-cf1f-47b9-8036-e51754335de4
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Date]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ano
+		formatString: 0
+		lineageTag: 3a46b44b-2afc-403f-9fc1-94d135e2865f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Ano]
+
+		annotation SummarizationSetBy = Automatic
+
+	column MesNum
+		formatString: 0
+		lineageTag: 86215754-1f4c-49eb-9898-6e2c5a8fdf33
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [MesNum]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mes
+		lineageTag: 58e42275-7b4f-4a3f-914f-e5c03845335f
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Mes]
+		sortByColumn: MesNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnoMes
+		lineageTag: d4788445-1c4b-4381-b6fa-693697eb824e
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [AnoMes]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calendario = calculated
+		mode: import
+		source = ```
+				
+				ADDCOLUMNS (
+				    CALENDAR ( DATE ( 2026, 1, 1 ), DATE ( 2026, 8, 31 ) ),
+				    "Ano", YEAR ( [Date] ),
+				    "MesNum", MONTH ( [Date] ),
+				    "Mes", FORMAT ( [Date], "mmm", "pt-BR" ),
+				    "AnoMes", FORMAT ( [Date], "yyyy-mm" )
+				)
+				
+				```
+
+	annotation PBI_Id = f40391cf6d40405aa1036f619fe203e2
+
