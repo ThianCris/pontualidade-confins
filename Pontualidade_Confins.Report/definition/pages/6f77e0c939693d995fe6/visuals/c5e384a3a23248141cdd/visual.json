@@ -3,7 +3,7 @@
   "name": "c5e384a3a23248141cdd",
   "position": {
     "x": 690,
-    "y": 67.5,
+    "y": 117.70000000000005,
     "z": 5002,
     "height": 177.12,
     "width": 198.72,
@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "voos_confins.Total Voos (cartao)",
-              "nativeQueryRef": "Total Voos (cartao)"
+              "nativeQueryRef": "Total de voos",
+              "displayName": "Total de voos"
             }
           ]
         }

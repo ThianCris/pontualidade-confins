@@ -12,17 +12,13 @@ queryGroup 'Erros na Consulta - 09/10/2026 07:02:35'
 
 	annotation PBI_QueryGroupOrder = 0
 
-annotation __PBI_TimeIntelligenceEnabled = 1
+annotation __PBI_TimeIntelligenceEnabled = 0
 
 annotation PBI_QueryOrder = ["voos_confins","Erros em voos_confins"]
 
-annotation PBI_ProTooling = ["DevMode"]
+annotation PBI_ProTooling = ["MCP-PBIModeling","DevMode"]
 
 ref table voos_confins
-ref table DateTableTemplate_cca133a2-369e-489e-8490-0e8480dedc2a
-ref table LocalDateTable_046b1f7b-956c-4b74-b4d7-da23476dfb7f
-ref table LocalDateTable_1647c6b5-5f8d-4d82-aa33-4b72466f3c69
-ref table LocalDateTable_c68d37a3-464d-485a-8081-e74d38710ef7
 ref table Calendario
 
 ref cultureInfo pt-BR

@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
   "name": "2fae07898ecf25ed0c7b",
   "position": {
-    "x": 887.5,
-    "y": 365,
+    "x": 660,
+    "y": 320.20000000000005,
     "z": 5004,
-    "height": 587.5,
-    "width": 812.5,
+    "height": 330,
+    "width": 620,
     "tabOrder": 5004
   },
   "visual": {
@@ -66,7 +66,7 @@
             "enableTitleDataLabel": {
               "expr": {
                 "Literal": {
-                  "Value": "true"
+                  "Value": "false"
                 }
               }
             },
@@ -129,10 +129,28 @@
                 "color": {
                   "expr": {
                     "ThemeDataColor": {
-                      "ColorId": 1,
+                      "ColorId": 0,
                       "Percent": 0
                     }
                   }
+                }
+              }
+            },
+            "background": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#243343'"
+                    }
+                  }
+                }
+              }
+            },
+            "titleWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
                 }
               }
             }
@@ -154,5 +172,37 @@
       ]
     },
     "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "185ac3c476852177eb1e",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Calendario"
+              }
+            },
+            "Property": "Mes"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "e84ce88d46602f6cbdbb",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "voos_confins"
+              }
+            },
+            "Property": "% Cancelamento"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
   }
 }

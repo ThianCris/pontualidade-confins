@@ -49,6 +49,33 @@ table voos_confins
 	measure 'Voos Pontuais (cartao)' = FORMAT ( [Voos Pontuais], "#,0", "pt-BR" )
 		lineageTag: ea7bc8dc-f688-455e-873b-130e3b3b34c7
 
+	measure '% Pontualidade Mes Anterior' = CALCULATE([% Pontualidade], DATEADD(Calendario[Date], -1, MONTH))
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 103a9a14-d641-42ca-ab6b-bc98b3fac688
+
+	measure 'Variacao Pontualidade (p.p.)' =
+			VAR atual = [% Pontualidade]
+			VAR anterior = [% Pontualidade Mes Anterior]
+			RETURN IF(ISBLANK(anterior), BLANK(), (atual - anterior) * 100)
+		formatString: +0.0;-0.0;0.0
+		lineageTag: 79a22bb6-338c-4aed-a3bc-68a525f02e10
+
+	measure '% Cancelamento Mes Anterior' = CALCULATE([% Cancelamento], DATEADD(Calendario[Date], -1, MONTH))
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: a9936412-b7a5-4e5a-b136-f1928945b3ab
+
+	measure 'Pontualidade Geral (todas as cias)' = CALCULATE([% Pontualidade], ALL(voos_confins[Companhia]))
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: cc8d722b-f312-43af-8619-499d7c71dff2
+
+	measure 'Diferenca vs Geral (p.p.)' = ([% Pontualidade] - [Pontualidade Geral (todas as cias)]) * 100
+		formatString: +0.0;-0.0;0.0
+		lineageTag: 5c232edd-9837-489c-bae2-b1df4b248332
+
+	measure 'Amostra Suficiente' = IF([Voos Medidos] >= 150, 1, 0)
+		formatString: 0
+		lineageTag: 4729a371-69a5-4095-af8e-435736bedaf1
+
 	column Arquivo_Origem
 		dataType: string
 		lineageTag: fe9d1a89-4fe6-42a4-bed7-15bca6043e6a
@@ -146,11 +173,6 @@ table voos_confins
 		summarizeBy: none
 		sourceColumn: Horario_Previsto
 
-		variation Variation
-			isDefault
-			relationship: d5944b29-99de-405e-99a3-64bfababbe27
-			defaultHierarchy: LocalDateTable_046b1f7b-956c-4b74-b4d7-da23476dfb7f.'Hierarquia de datas'
-
 		annotation SummarizationSetBy = Automatic
 
 	column Horario_Real
@@ -159,11 +181,6 @@ table voos_confins
 		lineageTag: 5d800218-c92a-4676-91d4-602b108319ac
 		summarizeBy: none
 		sourceColumn: Horario_Real
-
-		variation Variation
-			isDefault
-			relationship: 48c578c8-4c0e-4fd6-b411-14e841af986a
-			defaultHierarchy: LocalDateTable_1647c6b5-5f8d-4d82-aa33-4b72466f3c69.'Hierarquia de datas'
 
 		annotation SummarizationSetBy = Automatic
 
@@ -200,11 +217,6 @@ table voos_confins
 		lineageTag: 978ca6e8-7e50-4866-88d8-6725ef69444f
 		summarizeBy: none
 		sourceColumn: AnoMes
-
-		variation Variation
-			isDefault
-			relationship: 152f5779-d276-443a-ad24-3c3c75616c42
-			defaultHierarchy: LocalDateTable_c68d37a3-464d-485a-8081-e74d38710ef7.'Hierarquia de datas'
 
 		annotation SummarizationSetBy = Automatic
 

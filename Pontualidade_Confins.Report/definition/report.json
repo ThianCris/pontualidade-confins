@@ -11,7 +11,7 @@
       "type": "SharedResources"
     },
     "customTheme": {
-      "name": "Confins5435583645869757.json",
+      "name": "Confins_Escuro650905816277052.json",
       "reportVersionAtImport": {
         "visual": "2.13.0",
         "report": "3.4.0",
@@ -40,7 +40,7 @@
           "expanded": {
             "expr": {
               "Literal": {
-                "Value": "true"
+                "Value": "false"
               }
             }
           }
@@ -65,8 +65,8 @@
       "type": "RegisteredResources",
       "items": [
         {
-          "name": "Confins5435583645869757.json",
-          "path": "Confins5435583645869757.json",
+          "name": "Confins_Escuro650905816277052.json",
+          "path": "Confins_Escuro650905816277052.json",
           "type": "CustomTheme"
         }
       ]

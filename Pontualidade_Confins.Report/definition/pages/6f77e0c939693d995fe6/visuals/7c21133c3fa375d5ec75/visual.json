@@ -3,7 +3,7 @@
   "name": "7c21133c3fa375d5ec75",
   "position": {
     "x": 15,
-    "y": 65,
+    "y": 115.20000000000005,
     "z": 0,
     "height": 177.12,
     "width": 200.88,
@@ -28,7 +28,7 @@
               },
               "queryRef": "voos_confins.% Pontualidade",
               "nativeQueryRef": "% Pontualidade",
-              "format": "0.00%;-0.00%;0.00%"
+              "format": "0.0%;-0.0%;0.0%"
             }
           ]
         }

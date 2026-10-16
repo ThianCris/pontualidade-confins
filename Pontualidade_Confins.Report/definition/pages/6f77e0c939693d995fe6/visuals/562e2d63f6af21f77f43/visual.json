@@ -1,0 +1,77 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.13.0/schema.json",
+  "name": "562e2d63f6af21f77f43",
+  "position": {
+    "x": 1580,
+    "y": 660,
+    "z": 5009,
+    "height": 340,
+    "width": 320,
+    "tabOrder": 5009
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "voos_confins"
+                    }
+                  },
+                  "Property": "Tipo_Voo"
+                }
+              },
+              "queryRef": "voos_confins.Tipo_Voo",
+              "nativeQueryRef": "Tipo_Voo",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Basic'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "1a32649370461e89404f",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "voos_confins"
+              }
+            },
+            "Property": "Tipo_Voo"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

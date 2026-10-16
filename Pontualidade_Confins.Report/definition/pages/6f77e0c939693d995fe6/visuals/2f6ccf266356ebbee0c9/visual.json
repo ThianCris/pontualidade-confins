@@ -3,7 +3,7 @@
   "name": "2f6ccf266356ebbee0c9",
   "position": {
     "x": 467.5,
-    "y": 67.5,
+    "y": 117.70000000000005,
     "z": 5000,
     "height": 177.12,
     "width": 205.2,
@@ -27,7 +27,8 @@
                 }
               },
               "queryRef": "voos_confins.Atraso Medio (min)",
-              "nativeQueryRef": "Atraso Medio (min)"
+              "nativeQueryRef": "Atraso médio (min)",
+              "displayName": "Atraso médio (min)"
             }
           ]
         }

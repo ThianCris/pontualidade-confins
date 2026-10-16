@@ -1,2 +1,4995 @@
 cultureInfo pt-BR
 
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "voos_confin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "voos confin": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "voo confin": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "voos_confins": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.arquivo_origem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Arquivo_Origem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "arquivo origem": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Arquivo_Origem": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.cia_ICAO": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Cia_ICAO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cia ICAO": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Cia_ICAO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ICAO": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.companhia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Companhia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "companhia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.empresa_aerea": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Empresa_Aerea"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "empresa aerea": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Empresa_Aerea": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.numero_voo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Numero_Voo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero voo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Numero_Voo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.tipo_voo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Tipo_Voo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo voo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Tipo_Voo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.modelo_aeronave": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Modelo_Aeronave"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modelo aeronave": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Modelo_Aeronave": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.assento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Assentos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.movimento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Movimento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "movimento": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.outro_aeroporto_ICAO": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Outro_Aeroporto_ICAO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "outro aeroporto ICAO": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Outro_Aeroporto_ICAO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.outro_aeroporto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Outro_Aeroporto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "outro aeroporto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Outro_Aeroporto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.horario_previsto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Horario_Previsto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horario previsto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Horario_Previsto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "voos_confin.horario_previsto.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "Horario_Previsto",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.horario_previsto.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "Horario_Previsto",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "horario previsto ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.horario_previsto.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "Horario_Previsto",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "horario previsto trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.horario_previsto.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "Horario_Previsto",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "horario previsto mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.horario_previsto.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "Horario_Previsto",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "horario previsto dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.horario_real": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Horario_Real"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "horario real": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Horario_Real": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "voos_confin.horario_real.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "Horario_Real",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.horario_real.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "Horario_Real",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "horario real ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.horario_real.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "Horario_Real",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "horario real trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.horario_real.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "Horario_Real",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "horario real mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.horario_real.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "Horario_Real",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "horario real dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "voos_confin.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.ano_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "AnoMes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AnoMes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "voos_confin.ano_me.hierarquia_de_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "AnoMes",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hierarquia de data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "hierarquia de information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "hierarquia de document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "hierarquia de record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.ano_me.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "AnoMes",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano me ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.ano_me.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "AnoMes",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano me trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.ano_me.mê": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "AnoMes",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Mês"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mê": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano me mê": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.ano_me.dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "VariationSource": "AnoMes",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Hierarquia de datas",
+			          "HierarchyLevel": "Dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ano me dia": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.dia_semana_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Dia_Semana_Num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia semana num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dia_Semana_Num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "dia semana number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.dia_semana": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Dia_Semana"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "dia semana": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Dia_Semana": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.hora_prevista": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Hora_Prevista"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora prevista": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Hora_Prevista": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.faixa_horario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Faixa_Horario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa horario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Faixa_Horario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.situacao_voo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Situacao_Voo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "situacao voo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Situacao_Voo": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.cancelado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Cancelado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cancelado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.sem_horario_previsto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Sem_Horario_Previsto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sem horario previsto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Sem_Horario_Previsto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.atraso_min": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Atraso_Min"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "atraso min": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Atraso_Min": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "atraso minimum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.faixa_atraso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Faixa_Atraso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa atraso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Faixa_Atraso": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.pontual": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Pontual"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pontual": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.atrasado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Atrasado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "atrasado": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.pontual_1_5min": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Pontual_15min"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pontual 1 5min": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Pontual_15min": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.situacao_ANAC": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Situacao_ANAC"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "situacao ANAC": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Situacao_ANAC": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.faixa_ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Faixa Ordem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa ordem": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.total_voos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Total Voos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total voos": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate voo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall voo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.voos_medidos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Voos Medidos"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "voos medidos": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.pontualidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "% Pontualidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% pontualidade": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage pontualidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct pontualidade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.cancelamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "% Cancelamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% cancelamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage cancelamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct cancelamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.voos_cancelados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Voos Cancelados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "voos cancelados": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.voos_pontuais": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Voos Pontuais"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "voos pontuais": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.voos_pontuais_15min": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Voos Pontuais 15min"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "voos pontuais 15min": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.pontualidade_15min": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "% Pontualidade 15min"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% pontualidade 15min": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage pontualidade 15min": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "pct pontualidade 15min": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.atraso_medio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Atraso Medio (min)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "atraso medio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "atraso medio (min)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "atraso medio ( minimum )": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "Atraso médio (min)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "Units": [
+			        "minute",
+			        "min"
+			      ]
+			    },
+			    "voos_confin.total_voos_cartao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Total Voos (cartao)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total voos (cartao)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "total voos": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "aggregate voo (cartao)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "overall voo (cartao)": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "Total de voos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.voos_medidos_cartao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Voos Medidos (cartao)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "voos medidos (cartao)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "voos medidos": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.voos_cancelados_cartao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Voos Cancelados (cartao)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "voos cancelados (cartao)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "voos cancelados": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.voos_pontuais_cartao": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Voos Pontuais (cartao)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "voos pontuais (cartao)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "voos pontuais": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.pontualidade_mes_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "% Pontualidade Mes Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% pontualidade mes anterior": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage pontualidade me anterior": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct pontualidade me anterior": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.variacao_pontualidade_p_p_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Variacao Pontualidade (p.p.)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "variacao pontualidade (p.p.)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "variacao pontualidade": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.cancelamento_mes_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "% Cancelamento Mes Anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% cancelamento mes anterior": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage cancelamento me anterior": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "pct cancelamento me anterior": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.pontualidade_geral_todas_as_cias": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Pontualidade Geral (todas as cias)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pontualidade geral (todas as cias)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pontualidade geral": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.diferenca_vs_geral_p_p_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Diferenca vs Geral (p.p.)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "diferenca vs geral (p.p.)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "diferenca vs geral": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "voos_confin.amostra_suficiente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "voos_confins",
+			          "ConceptualProperty": "Amostra Suficiente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "amostra suficiente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calendario": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calendario.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.mes_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "MesNum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mes num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "me num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "MesNum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "me number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calendario.ano_me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calendario",
+			          "ConceptualProperty": "AnoMes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AnoMes": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "voos_confin_ano_me_mê_has_voos_confin_ano_me_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.ano_me.mê": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.mê"
+			          }
+			        },
+			        "voos_confin.ano_me.dia": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.mê"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.dia"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "voos_confin.ano_me.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê2"
+			        }
+			      ]
+			    },
+			    "voos_confin_ano_me_trimestre_has_voos_confin_ano_me_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.ano_me.trimestre": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.trimestre"
+			          }
+			        },
+			        "voos_confin.ano_me.mê": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.trimestre"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.mê"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "voos_confin.ano_me.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "voos_confin_ano_me_ano_has_voos_confin_ano_me_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.ano_me.ano": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.ano"
+			          }
+			        },
+			        "voos_confin.ano_me.trimestre": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.ano"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.trimestre"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "voos_confin.ano_me.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos2"
+			        }
+			      ]
+			    },
+			    "voos_confin_ano_me_hierarquia_de_data_has_voos_confin_ano_me_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.ano_me.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.ano_me.dia": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias"
+			        }
+			      ]
+			    },
+			    "voos_confin_ano_me_hierarquia_de_data_has_voos_confin_ano_me_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.ano_me.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.ano_me.mê": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê"
+			        }
+			      ]
+			    },
+			    "voos_confin_ano_me_hierarquia_de_data_has_voos_confin_ano_me_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.ano_me.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.ano_me.trimestre": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "voos_confin_ano_me_hierarquia_de_data_has_voos_confin_ano_me_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.ano_me.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.ano_me.ano": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos"
+			        }
+			      ]
+			    },
+			    "voos_confin_ano_me_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.ano_me": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me"
+			          }
+			        },
+			        "voos_confin.ano_me.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.ano_me"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ano_me_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_real_mê_has_voos_confin_horario_real_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_real.mê": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.mê"
+			          }
+			        },
+			        "voos_confin.horario_real.dia": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.mê"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.dia"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "voos_confin.horario_real.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê1"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_real_trimestre_has_voos_confin_horario_real_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_real.trimestre": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.trimestre"
+			          }
+			        },
+			        "voos_confin.horario_real.mê": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.trimestre"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.mê"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "voos_confin.horario_real.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_real_ano_has_voos_confin_horario_real_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_real.ano": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.ano"
+			          }
+			        },
+			        "voos_confin.horario_real.trimestre": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.ano"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.trimestre"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "voos_confin.horario_real.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos1"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_real_hierarquia_de_data_has_voos_confin_horario_real_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_real.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.horario_real.dia": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias1"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_real_hierarquia_de_data_has_voos_confin_horario_real_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_real.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.horario_real.mê": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê1"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_real_hierarquia_de_data_has_voos_confin_horario_real_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_real.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.horario_real.trimestre": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_real_hierarquia_de_data_has_voos_confin_horario_real_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_real.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.horario_real.ano": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos1"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_real_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_real": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real"
+			          }
+			        },
+			        "voos_confin.horario_real.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_real"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "horario_reals_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_previsto_mê_has_voos_confin_horario_previsto_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_previsto.mê": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.mê"
+			          }
+			        },
+			        "voos_confin.horario_previsto.dia": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.mê"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_dias2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.dia"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_have_mê2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.dia"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dias_are_in_mê"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_previsto_trimestre_has_voos_confin_horario_previsto_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_previsto.trimestre": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.trimestre"
+			          }
+			        },
+			        "voos_confin.horario_previsto.mê": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.trimestre"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_mê2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.mê"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.mê"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mê_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_previsto_ano_has_voos_confin_horario_previsto_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_previsto.ano": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.ano"
+			          }
+			        },
+			        "voos_confin.horario_previsto.trimestre": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.ano"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anos_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.trimestre"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anos2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anos"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_previsto_hierarquia_de_data_has_voos_confin_horario_previsto_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_previsto.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.horario_previsto.dia": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_dias2"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_previsto_hierarquia_de_data_has_voos_confin_horario_previsto_mê": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_previsto.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.horario_previsto.mê": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.mê"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.mê"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_mê2"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_previsto_hierarquia_de_data_has_voos_confin_horario_previsto_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_previsto.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.horario_previsto.trimestre": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_previsto_hierarquia_de_data_has_voos_confin_horario_previsto_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_previsto.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.hierarquia_de_data"
+			          }
+			        },
+			        "voos_confin.horario_previsto.ano": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto.hierarquia_de_data"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "hierarquia_de_data_have_anos2"
+			        }
+			      ]
+			    },
+			    "voos_confin_horario_previsto_has_hierarquia_de_data": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin.horario_previsto": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto"
+			          }
+			        },
+			        "voos_confin.horario_previsto.hierarquia_de_data": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto.hierarquia_de_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin.horario_previsto"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto.hierarquia_de_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "horario_previstos_have_hierarquia_de_data"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_calendario": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          },
+			          "Nouns": [
+			            {
+			              "data": {
+			                "State": "Generated"
+			              }
+			            }
+			          ]
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "calendario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_calendarios"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "voos_confin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_voos_confins"
+			        }
+			      ]
+			    },
+			    "calendario_has_ano_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.ano_me": {
+			          "Target": {
+			            "Entity": "calendario.ano_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.ano_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_ano_me"
+			        }
+			      ]
+			    },
+			    "calendario_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.me": {
+			          "Target": {
+			            "Entity": "calendario.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_me"
+			        }
+			      ]
+			    },
+			    "calendario_has_mes_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.mes_num": {
+			          "Target": {
+			            "Entity": "calendario.mes_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.mes_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_mes_nums"
+			        }
+			      ]
+			    },
+			    "calendario_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.ano": {
+			          "Target": {
+			            "Entity": "calendario.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_anos"
+			        }
+			      ]
+			    },
+			    "calendario_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Calendario"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calendario": {
+			          "Target": {
+			            "Entity": "calendario"
+			          }
+			        },
+			        "calendario.date": {
+			          "Target": {
+			            "Entity": "calendario.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calendario"
+			            },
+			            "Object": {
+			              "Role": "calendario.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calendarios_have_dates"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_amostra_suficiente": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.amostra_suficiente": {
+			          "Target": {
+			            "Entity": "voos_confin.amostra_suficiente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.amostra_suficiente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_amostra_suficiente"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_diferenca_vs_geral_p_p_": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.diferenca_vs_geral_p_p_": {
+			          "Target": {
+			            "Entity": "voos_confin.diferenca_vs_geral_p_p_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.diferenca_vs_geral_p_p_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_diferenca_vs_geral_p_p_"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_pontualidade_geral_todas_as_cias": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.pontualidade_geral_todas_as_cias": {
+			          "Target": {
+			            "Entity": "voos_confin.pontualidade_geral_todas_as_cias"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.pontualidade_geral_todas_as_cias"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_pontualidade_geral_todas_as_cias"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_cancelamento_mes_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.cancelamento_mes_anterior": {
+			          "Target": {
+			            "Entity": "voos_confin.cancelamento_mes_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.cancelamento_mes_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have__cancelamento_mes_anterior"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_variacao_pontualidade_p_p_": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.variacao_pontualidade_p_p_": {
+			          "Target": {
+			            "Entity": "voos_confin.variacao_pontualidade_p_p_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.variacao_pontualidade_p_p_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_variacao_pontualidade_p_p_"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_pontualidade_mes_anterior": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.pontualidade_mes_anterior": {
+			          "Target": {
+			            "Entity": "voos_confin.pontualidade_mes_anterior"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.pontualidade_mes_anterior"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have__pontualidade_mes_anterior"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_voos_pontuais_cartao": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.voos_pontuais_cartao": {
+			          "Target": {
+			            "Entity": "voos_confin.voos_pontuais_cartao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.voos_pontuais_cartao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_voos_pontuais_cartao"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_voos_cancelados_cartao": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.voos_cancelados_cartao": {
+			          "Target": {
+			            "Entity": "voos_confin.voos_cancelados_cartao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.voos_cancelados_cartao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_voos_cancelados_cartao"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_voos_medidos_cartao": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.voos_medidos_cartao": {
+			          "Target": {
+			            "Entity": "voos_confin.voos_medidos_cartao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.voos_medidos_cartao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_voos_medidos_cartao"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_total_voos_cartao": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.total_voos_cartao": {
+			          "Target": {
+			            "Entity": "voos_confin.total_voos_cartao"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.total_voos_cartao"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_total_voos_cartao"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_atraso_medio": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.atraso_medio": {
+			          "Target": {
+			            "Entity": "voos_confin.atraso_medio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.atraso_medio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_atraso_medio"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_pontualidade_15min": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.pontualidade_15min": {
+			          "Target": {
+			            "Entity": "voos_confin.pontualidade_15min"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.pontualidade_15min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have__pontualidade_15min"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_voos_pontuais_15min": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.voos_pontuais_15min": {
+			          "Target": {
+			            "Entity": "voos_confin.voos_pontuais_15min"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.voos_pontuais_15min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_voos_pontuais_15min"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_voos_pontuais": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.voos_pontuais": {
+			          "Target": {
+			            "Entity": "voos_confin.voos_pontuais"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.voos_pontuais"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_voos_pontuais"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_voos_cancelados": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.voos_cancelados": {
+			          "Target": {
+			            "Entity": "voos_confin.voos_cancelados"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.voos_cancelados"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_voos_cancelados"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_cancelamento": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.cancelamento": {
+			          "Target": {
+			            "Entity": "voos_confin.cancelamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.cancelamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have__cancelamento"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_pontualidade": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.pontualidade": {
+			          "Target": {
+			            "Entity": "voos_confin.pontualidade"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.pontualidade"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have__pontualidade"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_voos_medidos": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.voos_medidos": {
+			          "Target": {
+			            "Entity": "voos_confin.voos_medidos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.voos_medidos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_voos_medidos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_total_voos": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.total_voos": {
+			          "Target": {
+			            "Entity": "voos_confin.total_voos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.total_voos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_total_voos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_faixa_ordem": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.faixa_ordem": {
+			          "Target": {
+			            "Entity": "voos_confin.faixa_ordem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.faixa_ordem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_faixa_ordems"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_situacao_ANAC": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.situacao_ANAC": {
+			          "Target": {
+			            "Entity": "voos_confin.situacao_ANAC"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.situacao_ANAC"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_situacao_ANACs"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_pontual_1_5min": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.pontual_1_5min": {
+			          "Target": {
+			            "Entity": "voos_confin.pontual_1_5min"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.pontual_1_5min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_pontual_1_5mins"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_atrasado": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.atrasado": {
+			          "Target": {
+			            "Entity": "voos_confin.atrasado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.atrasado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_atrasados"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_pontual": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.pontual": {
+			          "Target": {
+			            "Entity": "voos_confin.pontual"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.pontual"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_pontuals"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_faixa_atraso": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.faixa_atraso": {
+			          "Target": {
+			            "Entity": "voos_confin.faixa_atraso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.faixa_atraso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_faixa_atrasos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_atraso_min": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.atraso_min": {
+			          "Target": {
+			            "Entity": "voos_confin.atraso_min"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.atraso_min"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_atraso_mins"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_sem_horario_previsto": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.sem_horario_previsto": {
+			          "Target": {
+			            "Entity": "voos_confin.sem_horario_previsto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.sem_horario_previsto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_sem_horario_previstos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_cancelado": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.cancelado": {
+			          "Target": {
+			            "Entity": "voos_confin.cancelado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.cancelado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_cancelados"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_situacao_voo": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.situacao_voo": {
+			          "Target": {
+			            "Entity": "voos_confin.situacao_voo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.situacao_voo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_situacao_voos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_faixa_horario": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.faixa_horario": {
+			          "Target": {
+			            "Entity": "voos_confin.faixa_horario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.faixa_horario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_faixa_horarios"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_hora_prevista": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.hora_prevista": {
+			          "Target": {
+			            "Entity": "voos_confin.hora_prevista"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.hora_prevista"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_hora_previstas"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_dia_semana": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.dia_semana": {
+			          "Target": {
+			            "Entity": "voos_confin.dia_semana"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.dia_semana"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_dia_semanas"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_dia_semana_num": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.dia_semana_num": {
+			          "Target": {
+			            "Entity": "voos_confin.dia_semana_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.dia_semana_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_dia_semana_nums"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_ano_me": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.ano_me": {
+			          "Target": {
+			            "Entity": "voos_confin.ano_me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano_me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_ano_me"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_me": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.me": {
+			          "Target": {
+			            "Entity": "voos_confin.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_me"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_ano": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.ano": {
+			          "Target": {
+			            "Entity": "voos_confin.ano"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.ano"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_anos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_data": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.data": {
+			          "Target": {
+			            "Entity": "voos_confin.data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_data"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_horario_real": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.horario_real": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_real"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_real"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_horario_reals"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_horario_previsto": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.horario_previsto": {
+			          "Target": {
+			            "Entity": "voos_confin.horario_previsto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.horario_previsto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_horario_previstos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_outro_aeroporto": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.outro_aeroporto": {
+			          "Target": {
+			            "Entity": "voos_confin.outro_aeroporto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.outro_aeroporto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_outro_aeroportos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_outro_aeroporto_ICAO": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.outro_aeroporto_ICAO": {
+			          "Target": {
+			            "Entity": "voos_confin.outro_aeroporto_ICAO"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.outro_aeroporto_ICAO"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_outro_aeroporto_ICAOs"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_movimento": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.movimento": {
+			          "Target": {
+			            "Entity": "voos_confin.movimento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.movimento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_movimentos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_assento": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.assento": {
+			          "Target": {
+			            "Entity": "voos_confin.assento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.assento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_assentos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_modelo_aeronave": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.modelo_aeronave": {
+			          "Target": {
+			            "Entity": "voos_confin.modelo_aeronave"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.modelo_aeronave"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_modelo_aeronaves"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_tipo_voo": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.tipo_voo": {
+			          "Target": {
+			            "Entity": "voos_confin.tipo_voo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.tipo_voo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_tipo_voos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_numero_voo": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.numero_voo": {
+			          "Target": {
+			            "Entity": "voos_confin.numero_voo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.numero_voo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_numero_voos"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_empresa_aerea": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.empresa_aerea": {
+			          "Target": {
+			            "Entity": "voos_confin.empresa_aerea"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.empresa_aerea"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_empresa_aereas"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_companhia": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.companhia": {
+			          "Target": {
+			            "Entity": "voos_confin.companhia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.companhia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_companhias"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_cia_ICAO": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.cia_ICAO": {
+			          "Target": {
+			            "Entity": "voos_confin.cia_ICAO"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.cia_ICAO"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_cia_ICAOs"
+			        }
+			      ]
+			    },
+			    "voos_confin_has_arquivo_origem": {
+			      "Binding": {
+			        "ConceptualEntity": "voos_confins"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "voos_confin": {
+			          "Target": {
+			            "Entity": "voos_confin"
+			          }
+			        },
+			        "voos_confin.arquivo_origem": {
+			          "Target": {
+			            "Entity": "voos_confin.arquivo_origem"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "voos_confin"
+			            },
+			            "Object": {
+			              "Role": "voos_confin.arquivo_origem"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "voos_confins_have_arquivo_origems"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+
